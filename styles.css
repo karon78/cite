@@ -1,10 +1,33 @@
 @import "./assets/css/reset.css";
 @import "./assets/css/hidden-heading.css";
 @import "./assets/css/image.css";
+@import "./assets/css/grid.css";
 
 *{
     box-sizing: border-box;
 }
 :root{
     font-size: 16px;
+}
+#fon1,
+#fon2,
+#fon3{
+    height: 500px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#video{
+    background-image: url("https://blogsimages.adobe.com/creativecloud/files/2016/04/Adobe-Creative-Jam-36-1800x1013.jpg");
+}
+#fon1 {
+     background-image: url("https://nvite-assets.s3.amazonaws.com/~public/themes/creativeJam/image_02.jpg");
+}
+#fon2{
+    background-image: url("https://nvite-assets.s3.amazonaws.com/~public/themes/creativeJam/image_03.jpg");
+}
+#fon3{
+    background-image: url("https://s.nvite.co/5b7b229a4ea94f0135067045/zudamemebi.jpg");
 }
